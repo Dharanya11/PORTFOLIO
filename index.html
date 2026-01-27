@@ -10,233 +10,78 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="sidebar">
         <header>
             <img src="p1.jpg" alt="Profile picture of Dharanya A" class="profile-img">
             <h2>Dharanya A</h2>
             <p>Full Stack Developer</p>
         </header>
-        <a href="#home" class="active"><i class="fas fa-home"></i> Home</a>
-        <a href="#about"><i class="fas fa-user"></i> About</a>
-        <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
-        <a href="#certificates"><i class="fas fa-certificate"></i> Certificates</a>
-        <a href="#projects"><i class="fas fa-code"></i> Projects</a>
-        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
-
+        <ul class="nav-links">
+            <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+            <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
         <div class="social-links">
-            <a href="https://github.com/Dharanya11" target="_blank" rel="noopener noreferrer"><i
-                    class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/dharanya-a-334877310/" target="_blank" rel="noopener noreferrer"><i
-                    class="fab fa-linkedin"></i></a>
-            <a href="tel:+919876543210"><i class="fas fa-phone"></i></a>
-            <a href="mailto:adharanya49@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/Dharanya11" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/dharanya-a-334877310/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
         </div>
     </nav>
 
     <div class="content-wrapper">
+        <header class="hero" id="home">
+            <h1>Hi, I'm <span>Dharanya A</span></h1>
+            <h3>Full Stack Developer</h3>
+            <p>Building seamless, user-friendly applications with a passion for innovation.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="#contact" class="btn-outline">Contact Me</a>
+            </div>
+        </header>
+
         <main>
-            <section id="home">
-                <div class="home-content">
-                    <div class="home-text">
-                        <h1>Hi, I'm <span>Dharanya A</span></h1>
-                        <h3>Full Stack Developer</h3>
-                        <p>Welcome to my portfolio! I'm passionate about creating innovative web solutions and solving
-                            complex problems through code. With expertise in both frontend and backend technologies, I
-                            build seamless, user-friendly applications that deliver exceptional experiences.</p>
-                        <div class="home-buttons">
-                            <a href="#projects" class="btn-primary">View My Work</a>
-                            <a href="#contact" class="btn-outline">Contact Me</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <section id="about">
-                <h2><i class="fas fa-user"></i> About Me</h2>
-                <p>
-                    I'm a dedicated Full Stack Developer with a strong passion for creating efficient, scalable web
-                    applications. My journey in technology began when I wrote my first line of code, and since then,
-                    I've been constantly expanding my knowledge and skills in this ever-evolving field.
-                </p>
-
-                <div class="skills-container">
-                    <div class="skill-category"><strong>Frontend:</strong> HTML, CSS, JavaScript, Angular, React</div>
-                    <div class="skill-category"><strong>Backend:</strong> Node.js, Express.js</div>
-                    <div class="skill-category"><strong>Database:</strong> MongoDB, MySQL</div>
-                    <div class="skill-category"><strong>Tools:</strong> Git, GitHub, Postman, Vercel</div>
-                </div>
-            </section>
-
-            <section id="education">
-                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
-
-                <div class="education-item">
-                    <div class="education-header">
-                        <div class="education-title">Bachelor of Technology in Information Technology</div>
-                        <div class="education-date">2025 - Present</div>
-                    </div>
-                    <div class="education-institution">Kongu Engineering College, Erode, Tamil Nadu</div>
-                    <p>3rd Year - 8.35 CGPA(4th Sem)</p>
-                </div>
-
-                <div class="education-item">
-                    <div class="education-header">
-                        <div class="education-title">HSLC(12th Grade)</div>
-                        <div class="education-date">2022 - 2023</div>
-                    </div>
-                    <div class="education-institution">Government Girls Higher Secondary School, Bhavani, Erode</div>
-                    <p>87.5%</p>
-                </div>
-
-                <div class="education-item">
-                    <div class="education-header">
-                        <div class="education-title">HSLC (11th Grade)</div>
-                        <div class="education-date">2021 - 2022</div>
-                    </div>
-                    <div class="education-institution">Government Girls Higher Secondary School, Bhavani, Erode</div>
-                    <p>80.5%</p>
-                </div>
-            </section>
-
-            <section id="certificates">
-                <h2><i class="fas fa-certificate"></i> Certificates</h2>
-
-                <div class="certificate-item">
-                    <div class="certificate-header">
-                        <div class="certificate-title">GitHub Fundamentals</div>
-                        <div class="certificate-date">2023</div>
-                    </div>
-                    <div class="certificate-issuer">GitHub</div>
-                </div>
-
-                <div class="certificate-item">
-                    <div class="certificate-header">
-                        <div class="certificate-title">MongoDB Associate Developer</div>
-                        <div class="certificate-date">2023</div>
-                    </div>
-                    <div class="certificate-issuer">MongoDB</div>
-                </div>
-
+                <h2>About Me</h2>
+                <p>I'm a dedicated Full Stack Developer with expertise in creating scalable web applications.</p>
             </section>
 
             <section id="projects">
-                <h2><i class="fas fa-code"></i> Projects</h2>
-
+                <h2>Projects</h2>
                 <div class="projects-grid">
-                    <!-- Project Card 1 -->
                     <div class="project-card">
-                        <img src="p2.jpg" alt="E-commerce Platform" class="project-image">
-                        <div class="project-content">
-                            <h3 class="project-title">E-commerce Platform</h3>
-                            <p>Complete online store with product management, cart, auth, and payments using MEAN stack.
-                            </p>
-                            <div class="project-links">
-                                <a href="https://github.com/Dharanya11/Ecommerce-Application"><i
-                                        class="fab fa-github"></i> GitHub</a>
-                            </div>
-                        </div>
+                        <h3>E-commerce Platform</h3>
+                        <p>Online store with product management, cart, and payments using MEAN stack.</p>
                     </div>
                     <div class="project-card">
-                        <img src="p3.jpg" alt="E-commerce Platform" class="project-image">
-                        <div class="project-content">
-                            <h3 class="project-title">Flash card Application</h3>
-                            <p>Complete subject related flashcard which is helpfull to the student by using MERN stack.
-                            </p>
-                            <div class="project-links">
-                                <a href="https://github.com/Dharanya11/FlashCardApp"><i class="fab fa-github"></i>
-                                    GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <img src="p4.jpg" alt="E-commerce Platform" class="project-image">
-                        <div class="project-content">
-                            <h3 class="project-title">Malicious mobile Application</h3>
-                            <p>It is used to detect the url is affected by virus or not is detected by my app using
-                                Cybersecurity
-                            </p>
-                            <div class="project-links">
-                                <a href="https://github.com/Dharanya11/malciousapp"><i class="fab fa-github"></i>
-                                    GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <img src="p5.jpeg" alt="Library Management System" class="project-image">
-                        <div class="project-content">
-                            <h3 class="project-title">Library Management System</h3>
-                            <p>Complete Library Management System with authetication,book insertion,deletion operation
-                                for the student and the faculty.
-                            </p>
-                            <div class="project-links">
-                                <a href="https://github.com/Dharanya11/librarymanagementsystem"><i
-                                        class="fab fa-github"></i> GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <img src="p6.jpg" alt="Library Management System" class="project-image">
-                        <div class="project-content">
-                            <h3 class="project-title">Song Extracter</h3>
-                            <p>by give the name of the song it will display the lyrics.
-                            </p>
-                            <div class="project-links">
-                                <a href="https://github.com/Dharanya11/songextracter"><i class="fab fa-github"></i>
-                                    GitHub</a>
-                            </div>
-                        </div>
+                        <h3>Flashcard App</h3>
+                        <p>Interactive flashcard app for students built with MERN stack.</p>
                     </div>
                 </div>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Frontend: HTML, CSS, JavaScript, React</li>
+                    <li>Backend: Node.js, Express.js</li>
+                    <li>Database: MongoDB, MySQL</li>
+                </ul>
             </section>
 
             <section id="contact">
-                <h2><i class="fas fa-envelope"></i> Contact Me</h2>
-                <div class="contact-container">
-                    <div class="contact-info">
-                        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> adharanya49@gmail.com</p>
-                        <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +91 9876543210</p>
-                        <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Chennai, India</p>
-
-                        <div class="contact-form">
-                            <h3>Send a Message</h3>
-                            <form action="mailto:adharanya49@gmail.com" method="POST" enctype="text/plain">
-                                <div class="form-group">
-                                    <label for="name">Your Name</label>
-                                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email Address</label>
-                                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="subject">Subject</label>
-                                    <input type="text" id="subject" name="subject" placeholder="What's this about?"
-                                        required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="message">Your Message</label>
-                                    <textarea id="message" name="message"
-                                        placeholder="Hi Dharanya, I'd like to talk about..." required></textarea>
-                                </div>
-                                <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                <h2>Contact Me</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
             </section>
-
         </main>
 
         <footer>
-            <p>© 2023 Dharanya A. All rights reserved.</p>
-            <div class="footer-social">
-                <a href="https://github.com/Dharanya11" target="_blank" rel="noopener noreferrer"><i
-                        class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/dharanya-a-334877310/" target="_blank" rel="noopener noreferrer"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
-            </div>
+            <p>© 2026 Dharanya A. All rights reserved.</p>
         </footer>
     </div>
 </body>
